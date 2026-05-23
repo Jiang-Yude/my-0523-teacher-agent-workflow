@@ -732,89 +732,111 @@ _agent/skills/multi-ai-dispatcher/scripts/multi-search.sh \
 
   <!-- ACT 07 -->
   <section id="act-07" data-block data-bg="6">
-    <div class="wrap">
-      <div class="act-cap reveal" style="color:#3E2723;">ACT 07 · PREP</div>
-      <h1 class="display reveal d1" style="color:#3E2723;">備課</h1>
-      <p class="lead reveal d2" style="color:#3E2723;">用標籤快速統整 + 順稿 + 新手模擬器</p>
-      <div class="grid-3" style="margin-top:48px;">
-        <div class="card reveal d3">
-          <div class="card-num">卡 01</div>
-          <h3 class="h2" style="color:#3E2723;">用標籤快速統整</h3>
-          <p class="body" style="color:#3E2723;">備課當天打開講座的檢索頁,用 backlinks 反向追蹤標籤(例如「講師工作流」、「2026-0523 課程」),所有平時累積的靈感、工作日記、半成品文章一鍵聚成一束。</p>
-        </div>
-        <div class="card reveal d4">
-          <div class="card-num">卡 02</div>
-          <h3 class="h2" style="color:#3E2723;">順稿</h3>
-          <p class="body" style="color:#3E2723;">把素材順成講稿。AI 負責語感、節奏、過渡,自己負責立場跟取捨。</p>
-        </div>
-        <div class="card reveal d5">
-          <div class="card-num">卡 03</div>
-          <h3 class="h2" style="color:#3E2723;">新手模擬器</h3>
-          <p class="body" style="color:#3E2723;">讓 AI 扮新手試學員會卡在哪。已收進 <b>teaching-monitor</b> 技能包 references/08-beginner-simulator.md。新手課程不確定性高,先模擬一輪可以省一半現場時間。</p>
-        </div>
+    <div class="wrap" style="max-width:1200px;">
+      <!-- 頂部:標題置中 -->
+      <div style="text-align:center; margin-bottom:48px;">
+        <div class="act-cap reveal" style="color:#3E2723;">ACT 07 · PREP</div>
+        <h2 class="display reveal d1" style="color:#3E2723;">備課</h2>
+        <p class="lead reveal d2" style="color:#3E2723;">用標籤快速統整 + 順稿 + 新手模擬器</p>
       </div>
-      <div class="reveal" style="margin-top:32px; text-align:center;">
-        <img src="images/mika-05-prep.jpg" alt="備課" style="max-width:380px; width:100%; height:auto; border-radius:12px; box-shadow:0 4px 16px rgba(0,0,0,0.1);" />
+      <!-- 中段:左圖右卡 -->
+      <div style="display:grid; grid-template-columns: minmax(280px, 380px) 1fr; gap:56px; align-items:start; text-align:left;">
+        <div class="reveal">
+          <img src="images/mika-05-prep.jpg" alt="備課" style="width:100%; height:auto; border-radius:12px; box-shadow:0 8px 24px rgba(0,0,0,0.12);" />
+          <p class="body" style="margin-top:12px; font-size:13px; text-align:center; opacity:0.7; color:#3E2723;">(輪播卡 ACT 07 主視覺)</p>
+        </div>
+        <div style="display:grid; gap:16px;">
+          <div class="card reveal d3">
+            <div class="card-num">卡 01</div>
+            <h3 class="h2" style="color:#3E2723;">用標籤快速統整</h3>
+            <p class="body" style="color:#3E2723;">備課當天打開講座的檢索頁,用 backlinks 反向追蹤標籤(例如「講師工作流」、「2026-0523 課程」),所有平時累積的靈感、工作日記、半成品文章一鍵聚成一束。</p>
+          </div>
+          <div class="card reveal d4">
+            <div class="card-num">卡 02</div>
+            <h3 class="h2" style="color:#3E2723;">順稿</h3>
+            <p class="body" style="color:#3E2723;">把素材順成講稿。AI 負責語感、節奏、過渡,自己負責立場跟取捨。</p>
+          </div>
+          <div class="card reveal d5">
+            <div class="card-num">卡 03</div>
+            <h3 class="h2" style="color:#3E2723;">新手模擬器</h3>
+            <p class="body" style="color:#3E2723;">讓 AI 扮新手試學員會卡在哪。已收進 <b>teaching-monitor</b> 技能包 references/08-beginner-simulator.md。新手課程不確定性高,先模擬一輪可以省一半現場時間。</p>
+          </div>
+        </div>
       </div>
     </div>
   </section>
 
   <!-- ACT 08 -->
   <section id="act-08" data-block data-bg="7">
-    <div class="wrap">
-      <div class="act-cap reveal">ACT 08 · DELIVER</div>
-      <h1 class="display reveal d1">做交付品</h1>
-      <p class="lead reveal d2">簡報 → 網頁一鍵化(你現在看的這份就是示範)</p>
-      <div class="grid-3" style="margin-top:48px;">
-        <div class="card reveal d3">
-          <div class="card-num">卡 01</div>
-          <h3 class="h2">投影頁網頁(webpage-builder)</h3>
-          <p class="body">用我自己的 webpage-builder 技能包做。一頁一個流程,章節清楚分隔,搭配字級調整、dot 導航。</p>
-          <p class="body" style="margin-top:12px; font-size:14px;">⚠️ <b>個人使用授權</b>,非商用。技能包目前自用版,公開版規劃中。</p>
-        </div>
-        <div class="card reveal d4">
-          <div class="card-num">卡 02</div>
-          <h3 class="h2">參考介面叫 AI 模仿</h3>
-          <p class="body">想要這種上課簡報造型?直接給 AI 看這頁網頁,叫它模仿就行。配色、字體、結構你可以自己再改。</p>
-        </div>
-        <div class="card reveal d5">
-          <div class="card-num">卡 03</div>
-          <h3 class="h2">公開部署:GitHub Pages</h3>
-          <p class="body">公開簡報直接推 <b>GitHub Pages</b>(免費、可被搜尋)。會議紀錄、客戶報告類含敏感內容的,走 <b>Vercel</b> 半私密部署(網址不好猜 + noindex)。</p>
-        </div>
+    <div class="wrap" style="max-width:1200px;">
+      <!-- 頂部:標題置中 -->
+      <div style="text-align:center; margin-bottom:48px;">
+        <div class="act-cap reveal">ACT 08 · DELIVER</div>
+        <h2 class="display reveal d1">做交付品</h2>
+        <p class="lead reveal d2">簡報 → 網頁一鍵化(你現在看的這份就是示範)</p>
       </div>
-      <div class="reveal" style="margin-top:32px; text-align:center;">
-        <img src="images/mika-06-deliver.jpg" alt="做交付品" style="max-width:380px; width:100%; height:auto; border-radius:12px; box-shadow:0 4px 16px rgba(0,0,0,0.1);" />
+      <!-- 中段:左圖右卡 -->
+      <div style="display:grid; grid-template-columns: minmax(280px, 380px) 1fr; gap:56px; align-items:start; text-align:left;">
+        <div class="reveal">
+          <img src="images/mika-06-deliver.jpg" alt="做交付品" style="width:100%; height:auto; border-radius:12px; box-shadow:0 8px 24px rgba(0,0,0,0.12);" />
+          <p class="body" style="margin-top:12px; font-size:13px; text-align:center; opacity:0.7;">(輪播卡 ACT 08 主視覺)</p>
+        </div>
+        <div style="display:grid; gap:16px;">
+          <div class="card reveal d3">
+            <div class="card-num">卡 01</div>
+            <h3 class="h2">投影頁網頁(webpage-builder)</h3>
+            <p class="body">用我自己的 webpage-builder 技能包做。一頁一個流程,章節清楚分隔,搭配字級調整、dot 導航。</p>
+            <p class="body" style="margin-top:12px; font-size:14px;">⚠️ <b>個人使用授權</b>,非商用。技能包目前自用版,公開版規劃中。</p>
+          </div>
+          <div class="card reveal d4">
+            <div class="card-num">卡 02</div>
+            <h3 class="h2">參考介面叫 AI 模仿</h3>
+            <p class="body">想要這種上課簡報造型?直接給 AI 看這頁網頁,叫它模仿就行。配色、字體、結構你可以自己再改。</p>
+          </div>
+          <div class="card reveal d5">
+            <div class="card-num">卡 03</div>
+            <h3 class="h2">公開部署:GitHub Pages</h3>
+            <p class="body">公開簡報直接推 <b>GitHub Pages</b>(免費、可被搜尋)。會議紀錄、客戶報告類含敏感內容的,走 <b>Vercel</b> 半私密部署(網址不好猜 + noindex)。</p>
+          </div>
+        </div>
       </div>
     </div>
   </section>
 
   <!-- ACT 09 -->
   <section id="act-09" data-block data-bg="8">
-    <div class="wrap">
-      <div class="act-cap reveal">ACT 09 · REUSE</div>
-      <h1 class="display reveal d1">課後再製</h1>
-      <p class="lead reveal d2">逐字稿三層次 + 教學手冊 + 學員提問入庫</p>
-      <div class="grid-3" style="margin-top:48px;">
-        <div class="card reveal d3">
-          <div class="card-num">卡 01</div>
-          <h3 class="h2">逐字稿三層次整理</h3>
-          <p class="body">超詳細/很詳細/1比1 三個等級。<b>包含洞察層</b>:看我哪裡上得不好、哪裡可以優化。</p>
+    <div class="wrap" style="max-width:1200px;">
+      <!-- 頂部:標題置中 -->
+      <div style="text-align:center; margin-bottom:48px;">
+        <div class="act-cap reveal">ACT 09 · REUSE</div>
+        <h2 class="display reveal d1">課後再製</h2>
+        <p class="lead reveal d2">逐字稿三層次 + 教學手冊 + 學員提問入庫</p>
+      </div>
+      <!-- 中段:左圖右卡 -->
+      <div style="display:grid; grid-template-columns: minmax(280px, 380px) 1fr; gap:56px; align-items:start; text-align:left;">
+        <div class="reveal">
+          <img src="images/mika-07-reuse.jpg" alt="課後再製" style="width:100%; height:auto; border-radius:12px; box-shadow:0 8px 24px rgba(0,0,0,0.12);" />
+          <p class="body" style="margin-top:12px; font-size:13px; text-align:center; opacity:0.7;">(輪播卡 ACT 09 主視覺)</p>
         </div>
-        <div class="card reveal d4">
-          <div class="card-num">卡 02</div>
-          <h3 class="h2">教學手冊製作</h3>
-          <p class="body">把講師講義整理成可以給別人接手教的教學手冊。下次同主題課直接複用。</p>
-        </div>
-        <div class="card reveal d5">
-          <div class="card-num">卡 03</div>
-          <h3 class="h2">學員提問入庫</h3>
-          <p class="body">每個學員提問建一張卡,連回下次同主題課的檢索頁。學員問題變下次備課的最佳素材。</p>
+        <div style="display:grid; gap:16px;">
+          <div class="card reveal d3">
+            <div class="card-num">卡 01</div>
+            <h3 class="h2">逐字稿三層次整理</h3>
+            <p class="body">超詳細/很詳細/1比1 三個等級。<b>包含洞察層</b>:看我哪裡上得不好、哪裡可以優化。</p>
+          </div>
+          <div class="card reveal d4">
+            <div class="card-num">卡 02</div>
+            <h3 class="h2">教學手冊製作</h3>
+            <p class="body">把講師講義整理成可以給別人接手教的教學手冊。下次同主題課直接複用。</p>
+          </div>
+          <div class="card reveal d5">
+            <div class="card-num">卡 03</div>
+            <h3 class="h2">學員提問入庫</h3>
+            <p class="body">每個學員提問建一張卡,連回下次同主題課的檢索頁。學員問題變下次備課的最佳素材。</p>
+          </div>
         </div>
       </div>
-      <div class="reveal" style="margin-top:32px; text-align:center;">
-        <img src="images/mika-07-reuse.jpg" alt="課後再製" style="max-width:380px; width:100%; height:auto; border-radius:12px; box-shadow:0 4px 16px rgba(0,0,0,0.1);" />
-      </div>
+      <!-- 下半全寬:脈絡警語區塊 -->
       <div class="reveal d6" style="margin-top:40px; padding:24px; background:rgba(216,140,58,0.08); border-left:4px solid var(--accent); border-radius:8px; text-align:left;">
         <p class="body" style="margin:0;"><b>觀念:脈絡很重要,細節更重要。</b></p>
         <p class="body" style="margin-top:8px;">無腦叫 AI 整理重點摘要,會把<b>真正可以輔助決策的關鍵字、關鍵指標全部洗掉</b>。逐字稿三層次的目的,就是把這些細節保留下來。</p>
@@ -824,24 +846,31 @@ _agent/skills/multi-ai-dispatcher/scripts/multi-search.sh \
 
   <!-- ACT 10 -->
   <section id="act-10" data-block data-bg="9">
-    <div class="wrap">
-      <div class="act-cap reveal">ACT 10 · COMPOUND</div>
-      <h2 class="display reveal d1">跨課程複用</h2>
-      <p class="lead reveal d2">技能包沉澱 + 卡片化重組</p>
-      <div class="grid-3" style="grid-template-columns: repeat(2, 1fr); max-width:800px; margin:48px auto 0;">
-        <div class="card reveal d3">
-          <div class="num">卡 01</div>
-          <h3 class="h2">技能包沉澱</h3>
-          <p class="body">一次成功的操作 → 寫成技能包 → 下次叫名字就用。從「我會」變成「Agent 也會」。</p>
-        </div>
-        <div class="card reveal d4">
-          <div class="num">卡 02</div>
-          <h3 class="h2">卡片化重組</h3>
-          <p class="body">卡片化的知識,按下一場課的需求重新排列組合。同樣的內容,給不同對象有不同講法。</p>
-        </div>
+    <div class="wrap" style="max-width:1200px;">
+      <!-- 頂部:標題置中 -->
+      <div style="text-align:center; margin-bottom:48px;">
+        <div class="act-cap reveal">ACT 10 · COMPOUND</div>
+        <h2 class="display reveal d1">跨課程複用</h2>
+        <p class="lead reveal d2">技能包沉澱 + 卡片化重組</p>
       </div>
-      <div class="reveal" style="margin-top:32px; text-align:center;">
-        <img src="images/mika-08-compound.jpg" alt="跨課程複用" style="max-width:380px; width:100%; height:auto; border-radius:12px; box-shadow:0 4px 16px rgba(0,0,0,0.1);" />
+      <!-- 中段:左圖右卡 -->
+      <div style="display:grid; grid-template-columns: minmax(280px, 380px) 1fr; gap:56px; align-items:start; text-align:left;">
+        <div class="reveal">
+          <img src="images/mika-08-compound.jpg" alt="跨課程複用" style="width:100%; height:auto; border-radius:12px; box-shadow:0 8px 24px rgba(0,0,0,0.12);" />
+          <p class="body" style="margin-top:12px; font-size:13px; text-align:center; opacity:0.7;">(輪播卡 ACT 10 主視覺)</p>
+        </div>
+        <div style="display:grid; gap:16px;">
+          <div class="card reveal d3">
+            <div class="num">卡 01</div>
+            <h3 class="h2">技能包沉澱</h3>
+            <p class="body">一次成功的操作 → 寫成技能包 → 下次叫名字就用。從「我會」變成「Agent 也會」。</p>
+          </div>
+          <div class="card reveal d4">
+            <div class="num">卡 02</div>
+            <h3 class="h2">卡片化重組</h3>
+            <p class="body">卡片化的知識,按下一場課的需求重新排列組合。同樣的內容,給不同對象有不同講法。</p>
+          </div>
+        </div>
       </div>
     </div>
   </section>
